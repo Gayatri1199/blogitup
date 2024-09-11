@@ -3,13 +3,13 @@ import "firebase/compat/auth";
 import "firebase/compat/firestore";
 
 firebase.initializeApp({
-  apiKey: "AIzaSyB2d_HzSOdy7QsvxBMEhOxXzKhFBVDY9xY",
-  authDomain: "myblogsite-ed122.firebaseapp.com",
-  projectId: "myblogsite-ed122",
-  storageBucket: "myblogsite-ed122.appspot.com",
-  messagingSenderId: "856528173422",
-  appId: "1:856528173422:web:14d0ac545bfd010dafa97f",
-  measurementId: "G-HJ26XFCGCN",
+  apiKey: "AIzaSyAm12qA8r6mFZp35CgrahS5fFYH4dsR9YY",
+  authDomain: "blogmain-2c49f.firebaseapp.com",
+  projectId: "blogmain-2c49f",
+  storageBucket: "blogmain-2c49f.appspot.com",
+  messagingSenderId: "338351306492",
+  appId: "1:338351306492:web:2213e0a4024b843c6c8979",
+  measurementId: "G-G2NHDV9498",
 });
 
 const fb = firebase;

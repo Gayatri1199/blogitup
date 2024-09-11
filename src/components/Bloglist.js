@@ -30,6 +30,12 @@ const BlogLists = () => {
     console.log("newFruits", newFruits);
     setDocuments(newFruits);
   };
+
+  const editblog = (index) => {
+    const newFruits = documents.filter((_, i) => i !== index);
+    console.log("newFruits", newFruits);
+    setDocuments(newFruits);
+  };
   return (
     <div>
       {console.log("documents", documents)}
@@ -41,7 +47,9 @@ const BlogLists = () => {
           <span className="delete" onClick={() => removeElement(index)}>
             Delete
           </span>
-          <span className="edit">Edit</span>
+          <span className="edit" onClick={() => editblog(doc.id)}>
+            Edit
+          </span>
         </div>
       ))}
     </div>
